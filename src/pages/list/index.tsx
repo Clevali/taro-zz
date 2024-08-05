@@ -1,7 +1,11 @@
 import { View, Text } from "@tarojs/components";
 import Taro, { useLoad } from "@tarojs/taro";
-import "./index.less";
 import { useRequest } from "ahooks";
+import { Button } from "@taroify/core"
+// import { ChatOutlined } from "@taroify/icons"
+import "@taroify/core/button/style"
+
+import "./index.less";
 
 export default function List() {
   useLoad(() => {
@@ -24,6 +28,8 @@ export default function List() {
       return (
     <View className='list-page'>
       <Text>周水莲！！</Text>
+      {/* <ChatOutlined /> */}
+      <Button color='primary'>主要按钮</Button>
       {data?.length ? data?.map((item) => <view style={{
         display:'block',
         color:'red'

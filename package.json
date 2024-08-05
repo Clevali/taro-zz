@@ -37,6 +37,8 @@
   "author": "",
   "dependencies": {
     "@babel/runtime": "^7.24.4",
+    "@taroify/core": "0.3.2-alpha.0",
+    "@taroify/icons": "0.3.2-alpha.0",
     "@tarojs/components": "4.0.4",
     "@tarojs/helper": "4.0.4",
     "@tarojs/plugin-framework-react": "4.0.4",
@@ -53,8 +55,10 @@
     "@tarojs/shared": "4.0.4",
     "@tarojs/taro": "4.0.4",
     "ahooks": "^3.8.0",
+    "babel-plugin-import": "^1.13.8",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "wx-server-sdk": "^3.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.24.4",
